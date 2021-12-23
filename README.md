@@ -6,9 +6,13 @@
 |:--|:--:|:--|
 |[runtimeStyle](#runtimeStyle)|JS|指定した要素に対してCSSのスタイルを設定|
 
+---
+### `runtimeStyle
+``` JavaScript
+$('AAA').runtimeStyle.display = 'none';
+```
 
-
-
+---
 
 ## menu
 * [to header1](#header1)
@@ -23,7 +27,6 @@
 
 
 
-### runtimeStyle
 
 
 
@@ -36,3 +39,5 @@
 	 * @return :
 	**/
 ```
+
+[return to top](#修正項目)
