@@ -16,7 +16,7 @@ $('AAA').runtimeStyle.display = 'none';
 ```
 対応
 ``` JavaScript
-<JavaScript>
+/* JavaScript */
 // ①
 $('AAA').css('display', 'none');
 $('AAA').css('display', '');
@@ -25,7 +25,7 @@ $('AAA').addClass('nodisp');
 $('AAA').removeClass('nodisp');
 ```
 ``` css
-<css>
+/* css */
 /* ② */
 .nodisp {
   display: none;
