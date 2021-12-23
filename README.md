@@ -4,7 +4,7 @@
 
 |code|言語|発見|概要|
 |:--|:--:|:--|:--|
-|[runtimeStyle](#runtimeStyle)|JavaScript|BJIE010.html (アイスクリーム発注入力)|指定した要素に対してCSSのスタイルを設定|
+|[runtimeStyle](#runtimeStyle)|JavaScript|BJIE010.html|指定した要素に対してCSSのスタイルを設定|
 |[ActiveXObject](#ActiveXObject)|JavaScript|transfer.js (XMLHTTPオブジェクトの生成)|危険なやつ|
 
 ------------------------------
