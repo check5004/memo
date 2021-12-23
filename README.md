@@ -47,6 +47,8 @@ displayと同様
 ```
 その他marginなど
 
+[return to top](#修正項目)
+
 ------------------------------
 
 ## **[ActiveXObject](http://akon.sakura.ne.jp/map/activexobject.htm)**
@@ -59,13 +61,16 @@ displayと同様
 ### **[setRequestHeader](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest/setRequestHeader)**
 >  HTTP リクエストヘッダーの値を設定
 
+[return to top](#修正項目)
 
+------------------------------
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 ------------------------------
 
-> コピペ
+コピペ
 ``` JavaScript
 	/**
 	 * [概要]  :
