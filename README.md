@@ -5,9 +5,10 @@
 |code|type|発見PG|概要|
 |:--|:--:|:--|:--|
 |[runtimeStyle](#runtimeStyle)|JS|BJIE010.html (アイスクリーム発注入力)|指定した要素に対してCSSのスタイルを設定|
-|[ActiveXObject]()|JS|transfer.js (XMLHTTPオブジェクトの生成)||
+|[ActiveXObject](http://akon.sakura.ne.jp/map/activexobject.htm)|JS|transfer.js (XMLHTTPオブジェクトの生成)|危険なやつ|
 
 ------------------------------
+
 ## **[runtimeStyle](https://js.studio-kingdom.com/jquery/css/css)**
 > 指定した要素に対してCSSのスタイルを設定
 
@@ -48,12 +49,21 @@ displayと同様
 
 ------------------------------
 
+## **[ActiveXObject](http://akon.sakura.ne.jp/map/activexobject.htm)**
+>ActiveXとは、Microsoft社のソフトウェア技術のブランド名の一つで、インターネットなどの通信ネットワークを通じて異なるコンピュータ上で動作するソフトウェアを連携させたり、データやプログラム部品をやり取りするための技術や製品、仕様などのこと。<br>
+
+> Internet 経由で, 遠隔マシンの操作ができる<br>
+> ActiveWindow を最大化することができる<br>
+> ActiveX に準拠した 4 つのスクリプト言語という言い方があるらしい<br>
+
+### **[setRequestHeader](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest/setRequestHeader)**
+>  HTTP リクエストヘッダーの値を設定
 
 
 
 
 
-
+------------------------------
 
 > コピペ
 ``` JavaScript
