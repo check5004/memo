@@ -6,23 +6,19 @@
 |:--|:--:|:--|
 |[runtimeStyle](#runtimeStyle)|JS|指定した要素に対してCSSのスタイルを設定|
 
----
-### `runtimeStyle`
+------------------------------
+## **\[[runtimeStyle](https://js.studio-kingdom.com/jquery/css/css)\]**
+> 指定した要素に対してCSSのスタイルを設定
+
+非対応
 ``` JavaScript
 $('AAA').runtimeStyle.display = 'none';
 ```
-
----
-
-## menu
-* [to header1](#header1)
-* [to header2](#header2)
-
-<!-- some long code -->
-
-[return to menu](#menu)
-### header1
-### header2
+対応
+``` JavaScript
+$('AAA').css('display', 'none');
+```
+------------------------------
 
 
 
@@ -31,6 +27,7 @@ $('AAA').runtimeStyle.display = 'none';
 
 
 
+------------------------------
 > コピペ
 ``` JavaScript
 	/**
