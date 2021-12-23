@@ -61,6 +61,9 @@ displayと同様
 ### **[setRequestHeader](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest/setRequestHeader)**
 >  HTTP リクエストヘッダーの値を設定
 
+### **[getResponseHeader](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest/getResponseHeader)**
+>  特定のヘッダー値のテキストを含んだ文字列を返します。<br>同じ名前で複数のレスポンスヘッダーがあった場合、値はコンマと空白で区切って値を接続した単一の文字列として返されます。
+
 <br>[return to top](#修正項目)
 
 ------------------------------
