@@ -7,7 +7,7 @@
 |[runtimeStyle](#runtimeStyle)|JS|指定した要素に対してCSSのスタイルを設定|
 
 ---
-### `runtimeStyle`
+### `runtimeStyle
 ``` JavaScript
 $('AAA').runtimeStyle.display = 'none';
 ```
