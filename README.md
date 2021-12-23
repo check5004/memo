@@ -20,16 +20,16 @@ $('AAA').runtimeStyle.display = 'none';
 対応
 ``` JavaScript
 /* JavaScript */
-// ①
+// <1>
 $('AAA').css('display', 'none');
 $('AAA').css('display', '');
-// ②
+// <2>
 $('AAA').addClass('nodisp');
 $('AAA').removeClass('nodisp');
 ```
 ``` css
 /* css */
-/* ② */
+/* <2> */
 .nodisp {
   display: none;
 }
