@@ -2,7 +2,7 @@
 
 ## **修正項目**
 
-|code|type|発見PG|概要|
+|code|type|発見|概要|
 |:--|:--:|:--|:--|
 |[runtimeStyle](#runtimeStyle)|JS|BJIE010.html (アイスクリーム発注入力)|指定した要素に対してCSSのスタイルを設定|
 |[ActiveXObject](#ActiveXObject)|JS|transfer.js (XMLHTTPオブジェクトの生成)|危険なやつ|
