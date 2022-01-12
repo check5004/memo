@@ -1,0 +1,25 @@
+/**
+  * [概要]  : Ajax通信(GET)
+  * @pram   : url
+  * @return :
+**/
+function fnGetAjaxData(url) {
+  var $deferred = new $.Deferred;
+  $.ajax({
+    url: url,
+    type:'GET',
+    cache: false,
+    async: false,
+    contentType:'text/html; charset=shift_jis',
+    error:function(e) {
+        // 結果:エラー時
+        alert(e);
+        $deferred.reject();
+    },
+    success: function(txt, status, xhr) {
+        // 結果:成功時
+        $deferred.resolve(txt);
+    }
+  });
+  return $deferred.promise();
+}
